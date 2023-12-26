@@ -1,0 +1,46 @@
+.navabar-profile-pic img{
+    border-radius: 90px;
+    height: 180px;
+    width: 180px;
+    margin-top: -25px;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+.nav-item{
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+   
+}
+.nav-links{
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-links svg{
+    margin-right: 20px;
+}
+
+.nav-item :hover{
+    color:  #f29f67;;
+}
+.nav-link{
+    margin-top: 30px;
+    align-items: center;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.nav-links .active{
+    color: #C27F52;
+    border-left: 3px solid #C27F52;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.nav-link .active{
+    color: #C27F52;
+    border-left: 3px solid #C27F52;
+    padding-left: 5px;
+    text-decoration: none;
+}

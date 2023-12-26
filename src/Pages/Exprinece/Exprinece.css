@@ -1,0 +1,27 @@
+.exprince{
+    padding-left: 130px;
+    margin : 70px auto;
+    margin-bottom: 20px;
+    background-color: rgba(150, 60, 60, 0.089);
+}
+.exprince hr {
+    color: #138681;
+    width: 100%;
+    margin : 10px auto;
+}
+.exprince h2 {
+    font-weight: bold;
+    color: #138681 ;
+} 
+.exprince p{
+    margin-top: 20px;
+    border-radius: 30px;
+    border-color: #138681;
+}
+.exprince .vertical-timeline-element-title{
+    color: #138681;
+}
+
+.exprince .vertical-timeline-element-subtitle{
+    color:  #1e1e2c;
+}

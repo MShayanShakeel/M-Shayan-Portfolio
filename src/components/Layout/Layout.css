@@ -1,0 +1,24 @@
+.Slidebar-section {
+    display: flex;
+    background: #000;
+}
+.Slidebar{
+    height: 100vh;
+    width: 80px;
+    background-color: #1e1e2c;
+    position: fixed;
+}
+.Slidebar-toggle{
+    width: 230px;
+}
+.slidebar-toggel-icons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: right;
+}
+.slidebar-toggel-icons p svg{
+    background-color: #f29f67;
+    color: white;
+    margin-top: 30px;
+}

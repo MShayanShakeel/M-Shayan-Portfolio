@@ -1,0 +1,37 @@
+.tech-stack{
+    padding-left: 130px;
+    margin : 70px auto;
+    margin-bottom: 20px;
+}
+
+.tech-stack hr {
+    color: #138681;
+    width: 100%;
+    margin : 10px auto;
+}
+.tech-stack h2 {
+    font-weight: bold;
+    color: #138681 ;
+} 
+.tech-stack p{
+    margin-top: 20px;
+    border-radius: 30px;
+    border-color: #138681;
+    
+}
+.tech-stack .card{
+    cursor: pointer;    
+}
+.tech-stack .tech-icon{
+    font-size: 2rem;
+    margin-right: 20px;
+}
+.tech-stack .card :hover{
+    background-color: #138681;
+    color: white; 
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: 1s;
+}
+.tech-stack .row{
+    margin-left: 100px;
+}
