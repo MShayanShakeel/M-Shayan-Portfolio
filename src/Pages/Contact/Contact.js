@@ -43,14 +43,14 @@ const Contact = () => {
                         <div className="line"/>
                     </div>
                 
-                <div className="row px-3">
+                {/* <div className="row px-3">
                     <input type="text" name='name' placeholder='Enter Your Name' className='mb-3'/>
-                </div>
-                <div className="row px-3">
+                </div> */}
+                {/* <div className="row px-3">
                     <input type="email" name='name' placeholder='Enter Your Email' className='mb-3'/>
-                </div>
-                <div className="row px-3">
-                    <textarea type="text" name='name' placeholder='Write your message' className='mb-3'/>
+                </div> */}
+                <div className="row px-3" style={{height : "10rem"}}>
+                    <h5 className='mb-3 dummy-text'>Dummy Text :If you need to contact me, please use the provided icons and my email mshayanshakeel786@gmail.com. Thanks! 😊 </h5>
                 </div>
                 <div className="row px-3">
                    <button className='button'> Send</button> 

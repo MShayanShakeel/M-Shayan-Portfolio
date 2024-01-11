@@ -8,7 +8,7 @@ const About = () => {
       <div className="conotainer about" id="about">
         <div className="row">
           <div className="col-xl-6 col-md-6 col-xs-12 col-lg-12 about-img">
-          <img src={process.env.PUBLIC_URL + '/picture/WhatsApp Image 2023-12-11 at 05.33.30_a5035cb1.jpg'} alt="WhatsApp Image" />
+          <img src={process.env.PUBLIC_URL + '/picture/Profile.jpg'} alt="WhatsApp Image" />
 
           </div>
           <div className="col-md-6 about-text">

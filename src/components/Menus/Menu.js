@@ -21,7 +21,7 @@ const Menu = ({ toogle }) => {
           <div className="navabar-profile-pic">
             <Flip>
               <img
-                src={process.env.PUBLIC_URL + " /picture/hassan.png"}
+                src={process.env.PUBLIC_URL + " /picture/hassan.PNG"}
                 alt="WhatsApp Image"
               />
             </Flip>
