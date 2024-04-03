@@ -1,7 +1,7 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
 import Fade from 'react-reveal/Fade';
-import Resume from '../../components/Assets/docs/Resume.pdf'
+import Resume from '../../components/Assets/docs/M-Shayan-CV.pdf'
 import "./Home.css"
 
 

@@ -4,21 +4,21 @@ import Spin from 'react-reveal/Spin';
 import Swing from 'react-reveal/Swing';
 
 const Project = () => {
- 
+
 
   return (
     <>
       <div className="container project" id="project">
-      
-<Spin>
-        <h3 className="col-12 mt-3 mb-1  text-center project-heading text-uppercase">
-          👉: Top Recent Projects
-        </h3>
-        <hr />
-        <h5 className="pb-3 text-center">
-          {" "}
-          Here are my top 3 recent project live link and source code
-        </h5>
+
+        <Spin>
+          <h3 className="col-12 mt-3 mb-1  text-center project-heading text-uppercase">
+            👉: Top Recent Projects
+          </h3>
+          <hr />
+          <h5 className="pb-3 text-center">
+            {" "}
+            Here are my top 3 recent project live link and source code
+          </h5>
         </Spin>
         <p className="pb-3 text-center">
           In my recent endeavors, I have successfully undertaken three diverse
@@ -53,91 +53,183 @@ const Project = () => {
 
         {/* Card Design */}
         <Swing>
-        <div className="row" id="ads">
-          <div className="col-4">
-            <div className="card rounded">
-              <div className="card-image">
-                <span className="card-notify-badge">MERN Stack</span>
-                <img
-                  src="https://www.dubaiwebsitecompany.com/mediaz/2023/08/logistics-company-web-design.jpg"
-                  alt="Project 1"
-                />
-              </div>
-              <div className="card-image-overly m-auto mt-2">
-                <span className="card-detail-badge">React JS</span>
-                <span className="card-detail-badge">Node JS</span>
-                <span className="card-detail-badge">Express JS</span>
-                <span className="card-detail-badge">MongoDB</span>
-              </div>
-              <div className="card-body">
-                <div className="ad-title m-auto">
-                  <h5 className="text-uppercase text-center">Witspi</h5>
+          <div className="row" id="ads">
+            <div className="col-4">
+              <div className="card rounded">
+                <div className="card-image">
+                  <span className="card-notify-badge">MERN Stack</span>
+                  <img
+                    src="https://www.dubaiwebsitecompany.com/mediaz/2023/08/logistics-company-web-design.jpg"
+                    alt="Project 1"
+                  />
                 </div>
-                <a className="ad-btn" href=""
-                //  onClick={alert("This Project is Privite project")}
-                 >
-                  view
-                </a>
+                <div className="card-image-overly m-auto mt-2">
+                  <span className="card-detail-badge">React JS</span>
+                  <span className="card-detail-badge">Node JS</span>
+                  <span className="card-detail-badge">Express JS</span>
+                  <span className="card-detail-badge">MongoDB</span>
+                </div>
+                <div className="card-body">
+                  <div className="ad-title m-auto">
+                    <h5 className="text-uppercase text-center">WatsPI</h5>
+                  </div>
+                  <a
+                    target="_blank"
+                    className="ad-btn"
+                    href="https://watspi-user-plum.vercel.app/"
+                  >
+                    View
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="col-4">
-            <div className="card rounded">
-              <div className="card-image">
-                <span className="card-notify-badge">React JS</span>
-                <img
-                  src="https://www.dubaiwebsitecompany.com/mediaz/2023/08/logistics-company-web-design.jpg"
-                  alt="Project 1"
-                />
-              </div>
-              <div className="card-image-overly m-auto mt-2">
-                <span className="card-detail-badge">React JS</span>
-                <span className="card-detail-badge">Redux</span>
-                <span className="card-detail-badge">Tailwind Css</span>
-                <span className="card-detail-badge">FireBase</span>
-              </div>
-              <div className="card-body">
-                <div className="ad-title m-auto">
-                  <h5 className="text-uppercase text-center">Bazar.com</h5>
+            <div className="col-4">
+              <div className="card rounded">
+                <div className="card-image">
+                  <span className="card-notify-badge">MERN Stack</span>
+                  <img
+                    src="https://www.dubaiwebsitecompany.com/mediaz/2023/08/logistics-company-web-design.jpg"
+                    alt="Project 1"
+                  />
                 </div>
-                <a
-                  target="_blank"
-                  className="ad-btn"
-                  href="https://dulcet-klepon-261381.netlify.app/"
-                >
-                  View
-                </a>
+                <div className="card-image-overly m-auto mt-2">
+                  <span className="card-detail-badge">React JS</span>
+                  <span className="card-detail-badge">Node JS</span>
+                  <span className="card-detail-badge">Express</span>
+                  <span className="card-detail-badge">MongoDB</span>
+                </div>
+                <div className="card-body">
+                  <div className="ad-title m-auto">
+                    <h5 className="text-uppercase text-center">WatsPI  White Theme</h5>
+                  </div>
+                  <a
+                    target="_blank"
+                    className="ad-btn"
+                    href="https://production-witspi.vercel.app"
+                  >
+                    View
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="col-4">
-            <div className="card rounded">
-              <div className="card-image">
-                <span className="card-notify-badge">React JS</span>
-                <img
-                  src="https://www.dubaiwebsitecompany.com/mediaz/2023/08/logistics-company-web-design.jpg"
-                  alt="Project 1"
-                />
-              </div>
-              <div className="card-image-overly m-auto mt-2">
-                <span className="card-detail-badge">React JS</span>
-                <span className="card-detail-badge">Redux</span>
-                <span className="card-detail-badge">Bootstrap</span>
-                {/* <span className="card-detail-badge"></span> */}
-              </div>
-              <div className="card-body">
-                <div className="ad-title m-auto">
-                  <h5 className="text-uppercase text-center">
-                    Current Portfolio
-                  </h5>
+
+            <div className="col-4">
+              <div className="card rounded">
+                <div className="card-image">
+                  <span className="card-notify-badge">React JS</span>
+                  <img
+                    src="https://www.dubaiwebsitecompany.com/mediaz/2023/08/logistics-company-web-design.jpg"
+                    alt="Project 1"
+                  />
                 </div>
-                <a className="ad-btn" href="#">
-                  View
-                </a>
+                <div className="card-image-overly m-auto mt-2">
+                  <span className="card-detail-badge">React JS</span>
+                  <span className="card-detail-badge">Redux</span>
+                  <span className="card-detail-badge">Tailwind Css</span>
+                  <span className="card-detail-badge">FireBase</span>
+                </div>
+                <div className="card-body">
+                  <div className="ad-title m-auto">
+                    <h5 className="text-uppercase text-center">Bazar.com</h5>
+                  </div>
+                  <a
+                    target="_blank"
+                    className="ad-btn"
+                    href="https://dulcet-klepon-261381.netlify.app/"
+                  >
+                    View
+                  </a>
+                </div>
               </div>
             </div>
+            <div className="col-4">
+              <div className="card rounded">
+                <div className="card-image">
+                  <span className="card-notify-badge">React JS</span>
+                  <img
+                    src="https://www.dubaiwebsitecompany.com/mediaz/2023/08/logistics-company-web-design.jpg"
+                    alt="Project 1"
+                  />
+                </div>
+                <div className="card-image-overly m-auto mt-2">
+                  <span className="card-detail-badge">React JS</span>
+                  <span className="card-detail-badge">Redux</span>
+                  <span className="card-detail-badge">Bootstrap</span>
+                  {/* <span className="card-detail-badge"></span> */}
+                </div>
+                <div className="card-body">
+                  <div className="ad-title m-auto">
+                    <h5 className="text-uppercase text-center">
+                      Current Portfolio
+                    </h5>
+                  </div>
+                  <a className="ad-btn" href="#">
+                    View
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-4">
+              <div className="card rounded">
+                <div className="card-image">
+                  <span className="card-notify-badge">React JS</span>
+                  <img
+                    src="https://www.dubaiwebsitecompany.com/mediaz/2023/08/logistics-company-web-design.jpg"
+                    alt="Project 1"
+                  />
+                </div>
+                <div className="card-image-overly m-auto mt-2">
+                  <span className="card-detail-badge">React JS</span>
+                  <span className="card-detail-badge">Math</span>
+                  <span className="card-detail-badge">Canvas</span>
+                </div>
+                <div className="card-body">
+                  <div className="ad-title m-auto">
+                    <h5 className="text-uppercase text-center">Screen Selector</h5>
+                  </div>
+                  <a
+                    target="_blank"
+                    className="ad-btn"
+                    href="https://image-selector-project-main.vercel.app/"
+                  >
+                    View
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-4">
+              <div className="card rounded">
+                <div className="card-image">
+                  <span className="card-notify-badge">React JS</span>
+                  <img
+                    src="https://www.dubaiwebsitecompany.com/mediaz/2023/08/logistics-company-web-design.jpg"
+                    alt="Project 1"
+                  />
+                </div>
+                <div className="card-image-overly m-auto mt-2">
+                  <span className="card-detail-badge">React JS</span>
+                  <span className="card-detail-badge">Bootstrap</span>
+                  <span className="card-detail-badge">ApexCharts</span>
+                </div>
+                <div className="card-body">
+                  <div className="ad-title m-auto">
+                    <h5 className="text-uppercase text-center">Practice UI</h5>
+                  </div>
+                  <a
+                    target="_blank"
+                    className="ad-btn"
+                    href="https://test-project-omega-seven.vercel.app/"
+                  >
+                    View
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
           </div>
-        </div>
         </Swing>
       </div>
     </>
