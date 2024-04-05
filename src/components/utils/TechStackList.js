@@ -103,7 +103,7 @@ export const TechstackList = [
   },
   {
     _id: 16,
-    name: "Express JS ",
+    name: "ExpressJS ",
     icon: SiExpress,
   },
   {

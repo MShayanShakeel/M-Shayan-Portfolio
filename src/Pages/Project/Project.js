@@ -2,6 +2,10 @@ import React from "react";
 import "./Project.css";
 import Spin from 'react-reveal/Spin';
 import Swing from 'react-reveal/Swing';
+import watspi2 from "../../images/watspi2.PNG"
+import Bazar from "../../images/Bazar.PNG"
+import SecrrenSelecter from "../../images/SecrrenSelecter.PNG"
+import coin1 from "../../images/coin1.PNG"
 
 const Project = () => {
 
@@ -17,7 +21,7 @@ const Project = () => {
           <hr />
           <h5 className="pb-3 text-center">
             {" "}
-            Here are my top 3 recent project live link and source code
+            Here are my top recent project live link and source code
           </h5>
         </Spin>
         <p className="pb-3 text-center">
@@ -54,7 +58,7 @@ const Project = () => {
         {/* Card Design */}
         <Swing>
           <div className="row" id="ads">
-            <div className="col-4">
+            <div className="col-md-4 col-xs-4 col-sm-12 col-lg-4">
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">MERN Stack</span>
@@ -83,12 +87,12 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-md-4 col-xs-4 col-sm-12 col-lg-4">
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">MERN Stack</span>
                   <img
-                    src="https://www.dubaiwebsitecompany.com/mediaz/2023/08/logistics-company-web-design.jpg"
+                    src={watspi2}
                     alt="Project 1"
                   />
                 </div>
@@ -113,12 +117,12 @@ const Project = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-md-4 col-xs-4 col-sm-12 col-lg-4">
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">React JS</span>
                   <img
-                    src="https://www.dubaiwebsitecompany.com/mediaz/2023/08/logistics-company-web-design.jpg"
+                    src={Bazar}
                     alt="Project 1"
                   />
                 </div>
@@ -142,7 +146,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-md-4 col-xs-4 col-sm-12 col-lg-4">
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">React JS</span>
@@ -170,12 +174,12 @@ const Project = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-md-4 col-xs-4 col-sm-12 col-lg-4">
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">React JS</span>
                   <img
-                    src="https://www.dubaiwebsitecompany.com/mediaz/2023/08/logistics-company-web-design.jpg"
+                    src={SecrrenSelecter}
                     alt="Project 1"
                   />
                 </div>
@@ -199,12 +203,12 @@ const Project = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-md-4 col-xs-4 col-sm-12 col-lg-4">
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">React JS</span>
                   <img
-                    src="https://www.dubaiwebsitecompany.com/mediaz/2023/08/logistics-company-web-design.jpg"
+                    src={coin1}
                     alt="Project 1"
                   />
                 </div>
@@ -220,6 +224,7 @@ const Project = () => {
                   <a
                     target="_blank"
                     className="ad-btn"
+                    // href="https://test-project-omega-seven.vercel.app/"
                     href="https://test-project-omega-seven.vercel.app/"
                   >
                     View

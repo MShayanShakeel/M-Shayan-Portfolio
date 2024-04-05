@@ -25,3 +25,10 @@
 .exprince .vertical-timeline-element-subtitle{
     color:  #1e1e2c;
 }
+
+@media screen and (max-width : 600px) {
+    .exprince{
+        margin: 0px;
+        padding: 0px;
+    }
+}

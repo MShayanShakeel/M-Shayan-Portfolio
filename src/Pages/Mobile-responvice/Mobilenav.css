@@ -1,0 +1,44 @@
+.Mobile-nav{
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+}
+.Mobile-nav-header{
+    width: 100%;
+    padding: 8px;
+    height: 50px;   
+    background-image: linear-gradient(to bottom right, #8b939a, #5b6467);
+}
+.Mobile-nav-header svg{
+    vertical-align: middle;
+    margin-left: 10px ;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.Mobile-nav-header .Mobile-nav-title{
+    vertical-align: middle;
+    margin-left: 10px ;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.Mobile-nav-menu .nav-items{
+    height: auto;
+    width: 200px;
+    background-color: black;
+    z-index: 1;
+    /* margin-top:-1rem; */
+    padding: 10px 10px 20px 10px;
+    border-bottom-right-radius: 20px; 
+}
+
+@media screen and (min-width : 600px)  {
+    .Mobile-nav{
+        display: none;
+    }
+}

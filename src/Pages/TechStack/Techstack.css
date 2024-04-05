@@ -27,11 +27,22 @@
     margin-right: 20px;
 }
 .tech-stack .card :hover{
-    background-color: #138681;
+    /* background-color: #138681; */
+    background-image: linear-gradient(to bottom right, #8b939a, #5b6467);
     color: white; 
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     transition: 1s;
 }
 .tech-stack .row{
     margin-left: 100px;
+}
+
+@media screen and (max-width : 600px) {
+    .tech-stack{
+        margin: 0px;
+        padding: 0px;
+    }
+    .tech-stack .row {
+    margin: 0px;
+    }
 }

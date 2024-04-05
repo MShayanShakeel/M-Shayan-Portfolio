@@ -17,7 +17,7 @@ const Education = () => {
     contentStyle={{ background: 'white', color: 'black' }}
     contentArrowStyle={{ borderRight: '7px solid  white' }}
     date="2019 - 2023"
-    iconStyle={{ background: '#138781', color: '#fff' }}
+    iconStyle={{ backgroundImage: 'linear-gradient(to bottom right, #8b939a, #5b6467)', color: '#fff' }}
     icon={<MdSchool />}
   >
     <h3 className="vertical-timeline-element-title">BS.CS In</h3>
@@ -30,7 +30,7 @@ const Education = () => {
     contentStyle={{ background: 'white', color: 'black' }}
     contentArrowStyle={{ borderRight: '7px solid  white' }}
     date="2017 - 2019"
-    iconStyle={{ background: '#138781', color: '#fff' }}
+    iconStyle={{ backgroundImage: 'linear-gradient(to bottom right, #8b939a, #5b6467)', color: '#fff' }}
     icon={<MdSchool />}
   >
      <h3 className="vertical-timeline-element-title">Intermediate In</h3>
@@ -43,7 +43,7 @@ const Education = () => {
     contentStyle={{ background: 'white', color: 'black' }}
     contentArrowStyle={{ borderRight: '7px solid  white' }}
     date="2016"
-    iconStyle={{ background: '#138781', color: '#fff' }}
+    iconStyle={{ backgroundImage: 'linear-gradient(to bottom right, #8b939a, #5b6467)', color: '#fff' }}
     icon={<MdSchool />}
   >
     <h3 className="vertical-timeline-element-title">Matriculation</h3>

@@ -15,7 +15,8 @@
     position: absolute;
     left: 10px;
     top: 20px;
-    background: #138681;
+    /* background: #138681; */
+    background-image: linear-gradient(to bottom right, #8b939a, #5b6467);
     text-align: center;
     border-radius: 30px 30px 30px 30px ;
     color: black;
@@ -28,7 +29,8 @@
 }
 
 .project .card-detail-badge{
-    background-color: #138681;
+    /* background-color: #138681; */
+    background-image: linear-gradient(to bottom right, #8b939a, #5b6467);
     text-align: center;
     border-radius: 30px 30px 30px 30px ;
     color: black;
@@ -51,7 +53,8 @@
 }
 .ad-btn{
     padding-top: 3px;
-    background: #138681;
+    /* background: #138681; */
+    background-image: linear-gradient(to bottom right, #8b939a, #5b6467);
     text-transform: uppercase;
     width: 170px;
     height: 40px;
@@ -71,7 +74,7 @@
     color: #138681;
     background: transparent;
     border: 2px solid #138681;
-    transition: all 1s ease;
+    transition: all 2s ease;
     box-shadow: 12px 15px 20px  0px rgba(46, 61, 73 ,0.15 );
 }
 .project hr {
@@ -98,4 +101,11 @@ table, th, td {
   table {
     width: 100%;
   
+  }
+
+  @media screen and (max-width : 600px) {
+    .project{
+        margin: 0px;
+        padding: 0px;
+    }
   }

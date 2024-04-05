@@ -1,30 +1,85 @@
-.about{
-    margin: 30px 0;
-    padding: 30px;
-    margin-left: 220px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
+.about {
+  margin: 30px 0;
+  padding: 30px;
+  margin-left: 220px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media screen and (min-width: 1000px) and (max-width: 25000px) {
+  .about-img img {
+    width: 65vh;
+    height: 85vh;
+    margin: auto;
+    margin-left: 7vb;
+  }
+}
+.about-img img {
+border-radius: 10px;
+}
+.about-text {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+.about-text h1 {
+  font-family: cursive;
+  color: gray;
+  border-bottom: 2px solid gray;
+  text-align: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
-.about-img img{
-    border-radius: 10px;
-    width: 65vh;
-    height: 85vh; 
-    margin: auto;
-    margin-left: 7vb; 
+@media screen and (max-width: 600px) {
+  .about {
+    margin: 0px;
+  }
+  /* .about-img img {
+    margin: 0px;
+    width: 61vh;
+    height: auto;
+    margin-bottom: 1rem;
+  } */
 }
-.about-text{
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
+/* 
+@media screen and (min-width: 375px) and (max-width: 380px) {
+  .about-img img {
+    margin: 0px;
+    width: 47.5vh;
+    height: auto;
+    margin-bottom: 1rem;
+  }
 }
-.about-text h1{
-    font-family: cursive;
-    color: gray;
-    border-bottom: 2px solid gray;
-    text-align: center;
-    display: flex;
-    text-align: center;
-    justify-content: center;
+
+@media screen and (min-width: 380px) and (max-width: 391px) {
+    .about-img img {
+      margin: 0px;
+      width: 39.5vh;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+  }
+@media screen and (min-width: 414px) and (max-width: 415px) {
+  .about-img img {
+    width: 40vh;
+  }
 }
+
+@media screen and (min-width: 400px) and (max-width: 413px) {
+  .about-img img {
+    width: 27vh;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 431px) {
+  .about-img img {
+    width: 40vh;
+  }
+}
+
+@media screen and (max-width: 281px) {
+  .about-img img {
+    width: 34vh;
+  }
+} */

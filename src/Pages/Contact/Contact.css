@@ -58,9 +58,10 @@ button:focus{
     outline-width: 0px;
 }
 .button{
-    background-color: #1e1e2c;
+    /* background-color: #1e1e2c; */
+    background-image: linear-gradient(to bottom right, #8b939a, #5b6467);
     color: white;
-    border-radius: 2px;
+    border-radius:12px;
     margin-top: 15px;
     padding: 10px;
 }
@@ -91,4 +92,15 @@ button:focus{
     display: flex;
     width: 10%;
     font-weight: bold;
+}
+
+@media screen and (max-width : 600px) {
+    .contact{
+        margin: 0px;
+        padding: 0px;
+    }   
+    .border-line img{
+        width: 500px;
+        height: auto;
+    }
 }

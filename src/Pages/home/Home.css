@@ -43,3 +43,21 @@
     transition: 0.5s;
     
 }   
+
+@media screen and (max-width : 600px) {
+    .home-container{
+        margin: 0px ;
+        padding: 0px ;
+        margin-top: 10px;
+    }
+    .home-content h1{
+        margin: 0px ;
+    }
+    .home-content h2{
+        margin: 0px;
+    }
+    .home-button{
+        margin: 0px;
+        margin-top: 15px;
+    }
+}

@@ -2,6 +2,7 @@ import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Education from "./Pages/Education/Education";
 import Exprinece from "./Pages/Exprinece/Exprinece";
+import Mobilenav from "./Pages/Mobile-responvice/Mobilenav";
 import Project from "./Pages/Project/Project";
 import Techstack from "./Pages/TechStack/Techstack";
 import Layout from "./components/Layout/Layout";
@@ -9,6 +10,7 @@ import ScrollToTop from "react-scroll-to-top";
 function App() {
   return (
     <>
+    <Mobilenav />
      <Layout />
     <About />
     <Techstack />
