@@ -88,8 +88,8 @@ const Contact = () => {
                         <div className="col-lg-6 col-md-6">
                             <div className="card2 d-flex card border-0 px-4 py-4">
                                 <div className="">
-                                    <div className="row">
-                                        <h6>Contact With ICONS
+                                    <div className="row" >
+                                        <h6 style={{display : "flex" , justifyContent :"space-around" , alignContent : "center"}}>Contact With ICONS
                                             <a href="https://www.linkedin.com/in/m-shayan-shakeel-795899203">
                                                 <IoLogoLinkedin color='blue' size={37} className='ms-2' />
                                             </a>

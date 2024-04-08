@@ -6,6 +6,8 @@ import watspi2 from "../../images/watspi2.PNG"
 import Bazar from "../../images/Bazar.PNG"
 import SecrrenSelecter from "../../images/SecrrenSelecter.PNG"
 import coin1 from "../../images/coin1.PNG"
+import watapimain from "../../images/watapimain.png"
+import testui from "../../images/testui.png"
 
 const Project = () => {
 
@@ -63,7 +65,7 @@ const Project = () => {
                 <div className="card-image">
                   <span className="card-notify-badge">MERN Stack</span>
                   <img
-                    src="https://www.dubaiwebsitecompany.com/mediaz/2023/08/logistics-company-web-design.jpg"
+                    src={watapimain}
                     alt="Project 1"
                   />
                 </div>
@@ -208,7 +210,7 @@ const Project = () => {
                 <div className="card-image">
                   <span className="card-notify-badge">React JS</span>
                   <img
-                    src={coin1}
+                    src={testui}
                     alt="Project 1"
                   />
                 </div>
