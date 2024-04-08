@@ -98,7 +98,6 @@ const Contact = () => {
                                             <abbr title="mshayanshakeel786@gmail.com">
                                                 <BsFillEnvelopeFill color='blue' size={28} className='ms-2' />
                                             </abbr>
-
                                         </h6>
                                     </div>
 
